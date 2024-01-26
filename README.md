@@ -14,7 +14,7 @@
 
 **`👒 Inyección de dependencias`**: Aprovecha el poder de Dependency Injection para lograr una gestión eficiente de las dependencias, mejorando la modularidad y la testabilidad del código.
 
-**`👒 Code FIRST`**: Adopta la metodología Code First para la generación de la base de datos, permitiendo una fácil evolución del esquema a medida que tu aplicación se desarrolla.
+**`👒 Code First`**: Adopta la metodología Code First para la generación de la base de datos, permitiendo una fácil evolución del esquema a medida que tu aplicación se desarrolla.
 
 ## Tecnologías Utilizadas:
 
@@ -26,7 +26,7 @@
 ## Arquitectura:
  ![image](https://github.com/dducken/OnePiece_API/assets/64493715/4e0e391e-433c-424e-8e3b-246f5da3294d)
 
-## Metodos API:
+## Métodos API:
 #### **`Todos los métodos de la entidad Character`**
 ![image](https://github.com/dducken/OnePiece_API/assets/64493715/75923fca-947e-4b45-8b7b-fe440b7ff0b5)
   
