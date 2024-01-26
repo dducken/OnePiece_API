@@ -7,6 +7,8 @@
 
 - **Acciones CRUD**: Realiza operaciones de Crear, Leer, Actualizar y Eliminar sobre los datos de tus personajes favoritos, sus tripulaciones y roles.
   
+- **Modelos Genéricos**: Implementa modelos genéricos para la creación de entidades y DTOs, permitiendo una flexibilidad y reutilización eficiente en la manipulación de datos.
+    
 - **Patrones de Diseño**: Implementa sólidas prácticas y patrones de diseño, como Unit of Work, Generic Repository y Clean Architecture, para asegurar una estructura robusta y mantenible del código.
 
 - **Inyección de Dependencias**: Aprovecha el poder de Dependency Injection para lograr una gestión eficiente de las dependencias, mejorando la modularidad y la testabilidad del código.
@@ -19,11 +21,30 @@
 
 ¡Sumérgete en la emocionante aventura de desarrollar con este proyecto API de One Piece y lleva tu habilidad en .NET y frontend a nuevas alturas!
 
-## Imagenes del proyecto:
-![image](https://github.com/dducken/OnePiece_API/assets/64493715/36f51a80-3464-401a-a074-d88912836dfb)
-![image](https://github.com/dducken/OnePiece_API/assets/64493715/53e5302d-b743-4c3f-87d1-01a420739902)
-![image](https://github.com/dducken/OnePiece_API/assets/64493715/26d9fa9c-1db4-4467-bc04-6182cbcff8b0)
-![image](https://github.com/dducken/OnePiece_API/assets/64493715/3aa751c0-aca1-49bc-8f6e-1e0c13a0b295)
+## Arquitectura:
+ ![image](https://github.com/dducken/OnePiece_API/assets/64493715/4e0e391e-433c-424e-8e3b-246f5da3294d)
+
+## Metodos API:
+- **Todos los metodos de la entidad Character**
+  ![image](https://github.com/dducken/OnePiece_API/assets/64493715/75923fca-947e-4b45-8b7b-fe440b7ff0b5)
+  
+- **api/characters** [GET] --> Muestra todos los personajes.
+![image](https://github.com/dducken/OnePiece_API/assets/64493715/11602725-20e8-44ce-9711-961366c880bb)
+
+- **api/characters** [POST] --> Permite crear un personaje.
+  
+- **api/characters/{id}** [GET] --> Obtiene info mas detallada de un personaje.
+![image](https://github.com/dducken/OnePiece_API/assets/64493715/f6bfb2c7-86f9-41d8-bb13-a67665a67982)
+
+- **api/characters/{id}** [PATCH] --> Permite actualizar un campo en especifico de la entidad.
+- **Ejemplo para actualizar el campo reward del character con id = 1**
+  
+![image](https://github.com/dducken/OnePiece_API/assets/64493715/39277a33-3334-481c-a1bc-fa59e86b71df)
+
+- **api/characters/{id}** [DELETE] --> Realiza un soft delete al character indicado.
+  
+![image](https://github.com/dducken/OnePiece_API/assets/64493715/6ea37ae1-ba0e-45be-9a88-024a4a66bce0)
+
 
 
 
