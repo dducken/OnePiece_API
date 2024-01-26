@@ -1,6 +1,7 @@
 # API de One Piece
 
 ¡Bienvenido al mundo de One Piece a través de esta API desarrollada con .NET 6! Este proyecto te sumergirá en un emocionante viaje a través de las acciones CRUD relacionadas con Personajes, Tripulaciones y Roles en el universo de One Piece.
+
 <img src='https://i.pinimg.com/564x/bd/23/eb/bd23eb0b41dac4248d7e1f2efdca7a4c.jpg'/>
 
 ## Características Principales:
@@ -19,7 +20,6 @@
 
 - **.NET CORE 6**, **Entity Framework Core**, **PostgreSQL**
 
-¡Sumérgete en la emocionante aventura de desarrollar con este proyecto API de One Piece y lleva tu habilidad en .NET y frontend a nuevas alturas!
 
 ## Arquitectura:
  ![image](https://github.com/dducken/OnePiece_API/assets/64493715/4e0e391e-433c-424e-8e3b-246f5da3294d)
@@ -37,13 +37,14 @@
 ![image](https://github.com/dducken/OnePiece_API/assets/64493715/f6bfb2c7-86f9-41d8-bb13-a67665a67982)
 
 - **api/characters/{id}** [PATCH] --> Permite actualizar un campo en especifico de la entidad.
-- **Ejemplo para actualizar el campo reward del character con id = 1**
+  **Ejemplo para actualizar el campo reward del character con id = 1**
   
-![image](https://github.com/dducken/OnePiece_API/assets/64493715/39277a33-3334-481c-a1bc-fa59e86b71df)
+![image](https://github.com/dducken/OnePiece_API/assets/64493715/b207953e-0641-4151-9868-94c995217d90)
 
 - **api/characters/{id}** [DELETE] --> Realiza un soft delete al character indicado.
   
-![image](https://github.com/dducken/OnePiece_API/assets/64493715/6ea37ae1-ba0e-45be-9a88-024a4a66bce0)
+![image](https://github.com/dducken/OnePiece_API/assets/64493715/34fc5d97-f646-4d6b-9f64-8df8054deeca)
+
 
 
 
