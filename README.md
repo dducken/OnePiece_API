@@ -21,6 +21,11 @@
 **`📎 .NET CORE 6`**
 **`📎 Entity Framework Core`**
 **`📎 PostgreSQL`**
+**`📎 APIRest`**
+**`📎 Data Annotations`**
+**`📎 Swagger`**
+**`📎 Visual Studio 2022`**
+ 
   
 
 ## Arquitectura:
